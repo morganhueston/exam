@@ -1,0 +1,90 @@
+    6  mkdir git
+    8  index.html ~/Desktop/git/index1.html
+    9  cp index.html ~/Desktop/git/index1.html
+   10  cp index.html ~/Desktop/git/index2.html
+   11  cp index.html ~/Desktop/git/index3.html
+   16  cp js.js ~/Desktop/git
+   17  cp style.css ~/Destkop/git
+   18  cp style.css ~/Desktop/git
+   19  cd git
+   33  git clone https://github.com/morganhueston/hey.git
+   35  git add *
+   36  git status
+   37  git commit -m "added directories"
+   38  git push origin master
+   40  cp index1.html ~/Desktop/git/hey
+   41  cp index2.html ~/Desktop/git/hey
+   42  cp index3.html ~/Desktop/git/hey
+   47  cd git
+   49  mv style.css ~/Desktop/git/hey/css
+   50  mv js.js ~/Desktop/git/hey/js
+   51  git status
+   53  git status
+   54  git add *
+   55  git status
+   56  git commit -m "added html files"
+   57  git config --global user.email "mhuest03@hotmail.com"
+   58  git push origin master
+   59  git pull --no-edit
+   60  git push origin master
+   63  git status
+   64  git add *
+   65  git commit -m "edited index1.html"
+   66  git pull --no-edit
+   67  git push origin master
+   69  git branch v0.0.1
+   70  git checkout v0.0.1
+   71  git checkout
+   72  git branch
+   75  git checkout master
+   76  git branch
+   82  cp *jpg ~/Desktop/git/hey/img
+   83  cd git
+   85  git status
+   86  git add *
+   87  git commit -m "added img file"
+   88  git pull --no-edit
+   89  git push origin master
+   90  git checkout v0.0.1
+   91  git merge master -m "merged repositories"
+   92  git pull --no-edit
+   93  git push origin v0.0.1
+  137  mkdir git
+  138  cd git
+  139  git clone https://github.com/morganhueston/exam.git
+  146  cp -r ~/Documents/exam ~/Desktop/git/exam
+  152  cd git
+  160  git status
+  161  git add *
+  162  git commit -m "added exam directory"
+  163  git push origin master
+  176  cd git
+  178  git status
+  179  git branch v2.0
+  180  git checkout v2.0
+  181  git branch
+  182  git push v2.0
+  183  git push origin v2.0
+  184  git checkout origin master
+  185  git checkout master
+  189  git status
+  190  git add *
+  191  git commit -m "edited index"
+  192  git push origin master
+  193  git checkout v2.0
+  194  git merge master -m "merged repos"
+  195  git push origin v2.0
+  197  git branch v3.0
+  198  git checkout v3.0
+  199  git push origin v3.0
+  200  git checkout master
+  207  git add *
+  208  git commit -m "edited index"
+  209  git push origin master
+  210  git checktout v3.0
+  211  git checkout v3.0
+  212  git merge master -m "merged with master"
+  213  git push origin v3.0
+  215  git checkout master
+  221  history | grep "git" > history.txt
+  222  history | grep "git" > history.txt
